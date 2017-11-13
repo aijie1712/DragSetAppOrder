@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DragSetAppOrder</string>
+
+    <string name="my_app_edit">我的应用编辑</string>
+    <string name="done">完成</string>
+    <string name="my_app">我的应用</string>
+    <string name="edit">编辑</string>
+    <string name="press_to_edit">(按住拖拽调整顺序)</string>
 </resources>

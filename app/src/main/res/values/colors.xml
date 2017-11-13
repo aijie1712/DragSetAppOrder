@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="global_text_color">#000000</color>
+    <color name="global_text_333">#333333</color>
+
+    <!--全局背景颜色-->
+    <color name="global_bg_color">#F8F8F8</color>
+    <color name="global_blue">#40ADFF</color>
 </resources>

@@ -15,7 +15,7 @@ public class ItemBean extends DataSupport {
     private String icon;
     private String url;
     private int state;
-    private int itemType;  // 是否是标题  0--否   1--是
+    private int itemType;
     private boolean isTitle;
     private int defaultIcon; // 默认icon
 
@@ -67,6 +67,7 @@ public class ItemBean extends DataSupport {
 
     public void setTitle(boolean title) {
         isTitle = title;
+        setItemType(ItemType.type_title);
     }
 
     public int getItemType() {
@@ -134,6 +135,12 @@ public class ItemBean extends DataSupport {
     public interface ItemState {
         int state_normal = 1;  // 未选中
         int state_selected = 2;  // 选中
+    }
+
+    public interface ItemType {
+        int type_normal = 1;  // 正常app
+        int type_more = 2;  // 更多item
+        int type_title = 3;  // 标题
     }
 
     public static ItemBean copyListBean(ItemBean itemBean) {
