@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="chatapp" />
+    <version value="1" />
+
+    <list>
+        <mapping class="intelligent.cmeplaza.com.work.bean.ItemBean"/>
+    </list>
+    <cases value="keep" />
+</litepal>
